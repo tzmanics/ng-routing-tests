@@ -6,4 +6,11 @@
     <a routerLink="">Empties</a>
     <a routerLink="🐺">Page Not Found</a>
   </nav>
+  <h1> Dynamic Routing </h1>
+  <ul>
+    <li *ngFor="let link of links">
+      <h2>{{ link.text }}</h2>
+      <a routerLink="{{ link.path }}"> {{ link.text }}</a>
+    </li>
+  </ul>
 <router-outlet></router-outlet>

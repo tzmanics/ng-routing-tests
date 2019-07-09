@@ -7,6 +7,8 @@ import { PageOneComponent } from './page-one/page-one.component';
 import { PageDetailComponent } from './page-detail/page-detail.component';
 import { PageListComponent } from './page-list/page-list.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { PageThreeComponent } from './page-three/page-three.component';
+import { PageFourComponent } from './page-four/page-four.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     PageDetailComponent,
     PageListComponent,
     PageNotFoundComponent,
+    PageThreeComponent,
+    PageFourComponent,
   ],
   imports: [
     BrowserModule,
