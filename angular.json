@@ -117,8 +117,17 @@
               "devServerTarget": "netlifyTest:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/netlifyTest",
+            "netlifyToken": "",
+            "siteId": "9ffe0e27-e33a-4d86-a8b0-76a1a139bb69"
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "netlifyTest"
 }
